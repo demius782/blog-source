@@ -1,0 +1,55 @@
+name: 云端生成essay/index.html并部署到GitHub Pages
+on:
+  push:
+    branches: [ main ]
+    paths:  # 仅当说说相关文件变化时触发（优化性能）
+      - 'source/_data/essay.yml'
+      - 'themes/anzhiyu/layout/essay/**'  # 说说页面模板
+      - 'themes/anzhiyu/source/css/essay/**'  # 说说页面样式
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 拉取仓库代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 拉取完整历史，避免Hexo构建异常
+
+      - name: 安装Node.js 18（LTS稳定版）
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'  # 缓存依赖，加速安装
+
+      - name: 安装Hexo依赖
+        run: |
+          npm install hexo-cli -g
+          npm install  # 安装package.json中的依赖（含渲染器）
+
+      - name: 生成静态文件（essay/index.html）
+        run: |
+          hexo clean  # 清理旧缓存，确保生成最新文件
+          hexo generate
+          # 验证说说页面是否生成
+          if [ ! -f "public/essay/index.html" ]; then
+            echo "错误：未找到public/essay/index.html"
+            exit 1
+          fi
+          echo "✅ essay/index.html生成成功"
+
+      - name: 准备部署目录（保持路径结构）
+        run: |
+          mkdir -p ./deploy/essay
+          cp public/essay/index.html ./deploy/essay/index.html
+
+      - name: 推送到gh-pages分支
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./deploy
+          publish_branch: gh-pages
