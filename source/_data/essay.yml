@@ -9,6 +9,9 @@
     top_background: 
       https://mpimg.cn/view.php/1a166b981d7ed8e7f71a70266bd0d668.webp              # 页面顶部背景图（渲染页面头部视觉）
     essay_list:                   # 短文列表（核心内容区，每个-代表一篇短文）
+      - content: 算了，睡吧！真熬不到18点，作息好难调节回来啊！！💔
+        date: 2025/09/18
+        from: 码字·兮兮
       - content: 加油啊！现在是大白天！不能睡觉！！😤
         date: 2025/09/18
         from: 码字·兮兮
