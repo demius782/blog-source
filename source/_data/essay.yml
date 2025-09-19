@@ -9,6 +9,12 @@
     top_background: 
       https://mpimg.cn/view.php/1a166b981d7ed8e7f71a70266bd0d668.webp              # 页面顶部背景图（渲染页面头部视觉）
     essay_list:                   # 短文列表（核心内容区，每个-代表一篇短文）
+      - content: 
+          之前从他们刚刚碰到开始就刷到了，到现在，这中间的过程看的是五味杂陈。<br>一哥曾说过：兄弟，你永远不知道你的出现对于我来说意味着什么。<br><br>人们追逐的是一哥的蜕变，也是内心深处的渴望等等
+        date: 2025/09/19
+        from: 码字·兮兮
+        image:
+          - https://tc.demius.tech/i/2025/09/18/68cb5fa4db109.webp
       - content: 下了一整天的雨，彻底凉快了，该穿长裤外套了👻
         date: 2025/09/19
         from: 码字·兮兮
