@@ -9,6 +9,16 @@
     top_background: 
       https://mpimg.cn/view.php/1a166b981d7ed8e7f71a70266bd0d668.webp              # 页面顶部背景图（渲染页面头部视觉）
     essay_list:                   # 短文列表（核心内容区，每个-代表一篇短文）
+      - content: 好亮的调啊！好美的天啊！！！！！秋高气爽！！！
+        date: 2025/09/21
+        from: 码字·兮兮
+        image:
+          - https://tc.demius.tech/i/2025/09/21/68cfc5d4c8c8b.webp
+      - content: 手艺人也是QAQ
+        date: 2025/09/21
+        from: 码字·兮兮
+        image:
+          - https://tc.demius.tech/i/2025/09/21/68cfc57e0ff30.webp
       - content: 
           有熬过一天，本来应该开心(∩_∩)的，一看今天是还房贷的日子吓的我赶紧查了一下银行卡余额，结果呢，该死的资本啊！我以为它是会到今天下午四点以后才会扣的，结果它娘的凌晨四点就给我扣掉了！！！！！！！！！😡
         date: 2025/09/21
