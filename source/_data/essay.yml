@@ -9,6 +9,9 @@
     top_background: 
       https://mpimg.cn/view.php/1a166b981d7ed8e7f71a70266bd0d668.webp              # 页面顶部背景图（渲染页面头部视觉）
     essay_list:                   # 短文列表（核心内容区，每个-代表一篇短文）
+      - content: 聊聊小说吧，那简直就是我的不同人生！💯
+        date: 2025/09/23
+        from: 码字·兮兮
       - content: 秋分时刻，一场秋雨一场寒，天知道我到底有多么喜欢下雨嘛，屋里小火锅准备上！😋
         date: 2025/09/23
         from: 码字·兮兮
