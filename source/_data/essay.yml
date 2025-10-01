@@ -9,6 +9,25 @@
     top_background: 
       https://mpimg.cn/view.php/1a166b981d7ed8e7f71a70266bd0d668.webp              # 页面顶部背景图（渲染页面头部视觉）
     essay_list:                   # 短文列表（核心内容区，每个-代表一篇短文）
+      - content: 开始下雨了🌧呢，有点担忧小雨点，明天后天都是大暴雨，她怎么过呢，流浪小黑猫🐈‍⬛
+        date: 2025/10/01
+        from: 码字·兮兮
+      - content: 略烦
+        date: 2025/10/01
+        from: 码字·兮兮
+      - content: 国庆节大阅兵，马上中秋节，双节合一💰
+        date: 2025/10/01
+        from: 码字·兮兮
+        address: 家
+      - content: 去关了一下窗户，好像听见了小猫叫，真是的，其实还是想养她，只是小母猫发情处理不了，因为我对于给她绝育这种事情感到很残忍😧
+        date: 2025/09/30
+        from: 码字·兮兮
+        address: 小区
+      - content: 喂了好几天了，楼下的流浪猫，现在一听见我俩的声音就过来了，今晚还知道等人，还会随行，她是流浪的小猫啊…养还是不养呢…😐
+        date: 2025/09/30
+        from: 码字·兮兮
+        image:
+          - https://tc.demius.tech/i/2025/09/30/68dbca0c24e43.webp
       - content: 事儿真多啊
         date: 2025/09/30
         from: 码字·兮兮
@@ -60,11 +79,6 @@
         from: 码字·兮兮
         image:
           - https://tc.demius.tech/i/2025/09/21/68cfc5d4c8c8b.webp
-      - content: 手艺人也是QAQ
-        date: 2025/09/21
-        from: 码字·兮兮
-        image:
-          - https://tc.demius.tech/i/2025/09/21/68cfc57e0ff30.webp
       - content: 
           有熬过一天，本来应该开心(∩_∩)的，一看今天是还房贷的日子吓的我赶紧查了一下银行卡余额，结果呢，该死的资本啊！我以为它是会到今天下午四点以后才会扣的，结果它娘的凌晨四点就给我扣掉了！！！！！！！！！😡
         date: 2025/09/21
@@ -73,8 +87,6 @@
       - content: 剩下的炖的，三次加水了，顶多这样，下次记得想脱骨一定要焯水之后高压锅十几分钟再下锅炒！香啊！！💯
         date: 2025/09/20
         from: 码字·兮兮
-        image:
-          - https://tc.demius.tech/i/2025/09/20/68ce5709932fc.webp
       - content: 哈哈哈哈哈！出锅出锅！！香啊！剩下的再炖一个小时到烂糊！！😁
         date: 2025/09/20
         from: 码字·兮兮
